@@ -1,4 +1,4 @@
-function solution(a: number, b: number) {
+export function solution(a: number, b: number) {
   let result = 0;
   const start = a < b ? a : b;
   const end = a < b ? b : a;
@@ -9,3 +9,5 @@ function solution(a: number, b: number) {
 
   return result;
 }
+
+// https://programmers.co.kr/learn/courses/30/lessons/12912
