@@ -7,3 +7,5 @@ export function solution(a: number, b: number) {
     console.log(str);
   }
 }
+
+// https://programmers.co.kr/learn/courses/30/lessons/12969
